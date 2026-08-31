@@ -57,20 +57,6 @@ The current `requirements.txt` specifies the following main dependencies:
 
 Please install a compatible **PyTorch/CUDA** version for your hardware before running the model. The provided requirements file does not pin a PyTorch version, so the exact version should be selected according to your GPU/CUDA environment. 
 
-
-
-## Pretrained Models
-
-Pretrained weights are provided separately from the source code when necessary.
-
-Please place the downloaded checkpoint(s) under:
-
-```text
-weights/
-```
-
-and make sure the corresponding path is consistent with the configuration used by `demo.py`.
-
 > **Note:** Large checkpoint files should preferably be distributed through GitHub Releases, Git LFS, Zenodo, or another dedicated model/data host rather than committed directly to the normal Git history.
 
 
